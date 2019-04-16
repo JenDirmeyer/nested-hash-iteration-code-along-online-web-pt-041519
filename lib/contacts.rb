@@ -20,7 +20,7 @@ def remove_strawberry(contacts)
     info_hash.each do |cats, stats|
       if cats == :favorite_ice_cream_flavors
         stats.delete_if {|flavor| flavor = "strawberry"}
-        binding.pry  
+        #binding.pry  
       end
     end 
    end
