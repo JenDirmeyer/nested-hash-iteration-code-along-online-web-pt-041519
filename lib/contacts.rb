@@ -19,7 +19,7 @@ def remove_strawberry(contacts)
    if person == "Freddy Mercury"  
     info_hash.each do |cats, stats|
       if cats == :favorite_ice_cream_flavors
-    binding.pry  
+      binding.pry  
     end 
    end
   end  
